@@ -139,7 +139,7 @@ def run(weights='yolov5s.pt',  # model.pt path(s)
         cv2.waitKey(0)
 
 def main():
-    kmNet.init("192.168.2.188", "32770", "8147E04E")  # Connect to the box --- If it can't connect, first check if the network is smooth
+    kmNet.init("192.168.2.188", "16896", "46405C53")  # Connect to the box --- If it can't connect, first check if the network is smooth
     kmNet.monitor(6666)  # Turn on physical keyboard and mouse monitoring function, listen on port 6666 --- Listening port can be arbitrary, as long as it doesn't conflict with other system ports
     kmNet.mask_side1(1)  # Mask mouse side button 1 --- The side button press message will not be sent to the game machine. But AI can detect the side button press. Used as an aim assist switch
     kmNet.trace(0, 80)   # Use hardware curve correction algorithm. Complete aiming movement within 80ms
