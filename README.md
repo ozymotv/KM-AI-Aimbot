@@ -1,9 +1,9 @@
 # KM-AI-Aimbot
-A demo using AI and Kmbox Nvideo + Capture card for aimbot
+A demo using AI and Kmbox + Capture card for aimbot
 
 # What can it do?
 + This project is a demo AI aimbot and at hardware level.
-+ Support most FPS game at the moment
++ Support most FPS game that using humanoid figures
 
 # 2nd pc spec
 + Python 3.11
